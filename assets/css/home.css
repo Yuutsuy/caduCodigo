@@ -24,6 +24,9 @@
     font-size: 18px;
     text-align: justify;
 }
+.container h2 {
+    text-transform: uppercase;
+}
 
 
 /* Name */
@@ -39,7 +42,6 @@
 }
 .container .h-name h2 {
     font-size: 32px;
-    text-transform: uppercase;
     color: #00E0FF;
 }
 
@@ -69,10 +71,6 @@
     margin-bottom: 10px;
     color: #00E0FF;
 }
-.container .h-experiencia .h-itens .item .description p {
-    font-size: 18px;
-    text-align: justify;
-}
 
 /* Educação */
 .container .h-educacao .item {
@@ -84,7 +82,6 @@
 }
 .container .h-educacao .item .title h2 {
     font-size: 22px;
-    text-transform: uppercase;
     color: #232323;
 }
 .container .h-educacao .item .title span {
@@ -150,7 +147,6 @@
 }
 .container .h-contato .item h2 {
     font-size: 18px;
-    text-transform: uppercase;
 }
 .container .h-contato .item p {
     color: #00E0FF;
