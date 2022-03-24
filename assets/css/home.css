@@ -43,11 +43,6 @@
     color: #00E0FF;
 }
 
-.container .h-sobre .paragraf {
-    text-align: justify;
-    font-size: 18px;
-}
-
 /* Experiência */
 .container .h-experiencia .h-itens {
     min-height: 100px;
@@ -64,9 +59,6 @@
 .container .h-experiencia .h-itens .item .work h2 {
     font-size: 22px;
     margin-bottom: 10px;
-}
-.container .h-experiencia .h-itens .item .work p {
-    font-size: 22px;
 }
 .container .h-experiencia .h-itens .item .description {
     width: 75%;
@@ -99,10 +91,6 @@
     font-size: 22px;
     text-transform: uppercase;
     color: #00E0FF;
-}
-.container .h-educacao .item p {
-    text-align: justify;
-    font-size: 18px;
 }
 
 /* Habilidades */
