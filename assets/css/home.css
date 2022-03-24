@@ -56,51 +56,40 @@
     font-size: 26px;
     text-transform: uppercase;
 }
-.container .h-experiencia .h-itens {
-    width: 100%;
+.h-itens {
     min-height: 100px;
 }
-.container .h-experiencia .h-itens .item {
+.h-itens .item {
     display: flex;
     flex-direction: row;
     width: 100%;
     min-height: 220px;
 }
-.container .h-experiencia .h-itens .item .work {
+.work {
     min-width: 25%;
-    max-width: 25%;
-    min-height: 100px;
 }
-.container .h-experiencia .h-itens .item .work h2 {
+.work h2 {
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-.container .h-experiencia .h-itens .item .work p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
+.work p {
     font-size: 22px;
     text-transform: uppercase;
-    color: #000000;
 }
-.container .h-experiencia .h-itens .item .description {
+.description {
     width: 75%;
     min-height: 100px;
 }
-.container .h-experiencia .h-itens .item .description h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+.description h2 {
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #00E0FF;
 }
-.container .h-experiencia .h-itens .item .description p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
+.description p {
     font-size: 18px;
     text-align: justify;
-    color: #000000;
 }
 
 /* Educação */
