@@ -20,6 +20,10 @@
     min-height: 100px;
     margin-bottom: 100px;
 }
+.container p {
+    font-size: 18px;
+    text-align: justify;
+}
 
 
 /* Name */
@@ -60,11 +64,9 @@
 .container .h-experiencia .h-itens .item .work h2 {
     font-size: 22px;
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 .container .h-experiencia .h-itens .item .work p {
     font-size: 22px;
-    text-transform: uppercase;
 }
 .container .h-experiencia .h-itens .item .description {
     width: 75%;
@@ -73,7 +75,6 @@
 .container .h-experiencia .h-itens .item .description h2 {
     font-size: 22px;
     margin-bottom: 10px;
-    text-transform: uppercase;
     color: #00E0FF;
 }
 .container .h-experiencia .h-itens .item .description p {
