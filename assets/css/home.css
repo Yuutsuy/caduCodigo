@@ -151,7 +151,7 @@
 }
 
 /* Percentuais */
-.container .h-habilidades .item .icon .percentual-10 {
+.h-habilidades .item .icon .percentual-10 {
     width: 110px;
     height: 100%;
     border-radius: 6px;
@@ -177,39 +177,19 @@
 }
 
 /* Contato */
-.container .h-contato {
-    width: 100%;
+.h-contato {
     min-height: 200px;
     margin-bottom: 50px;
-}
-.container .h-contato .h-title-contato {
-    width: 100%;
-    min-height: 50px;
-    border-bottom: 2px solid #00E0FF;
-    margin-bottom: 50px;
-}
-.container .h-contato .h-title-contato h2 {
-    margin-top: 5%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    text-transform: uppercase;
-    color: #000000;
 }
 .container .h-contato .item {
     width: 100%;
     min-height: 80px;
 }
-.container .h-contato .item h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+.h-contato .item h2 {
     font-size: 18px;
     text-transform: uppercase;
-    color: #000000;
 }
 .container .h-contato .item p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
     font-size: 18px;
     color: #00E0FF;
 }
