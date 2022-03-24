@@ -5,142 +5,125 @@
     min-height: 100%;
     margin: auto;
 }
-.h-title {
+.container .h-title {
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 50px;
 }
-.h-title h2 {
+.container .h-title h2 {
     margin-top: 5%;
     font-size: 26px;
     text-transform: uppercase;
 }
+.container .h {
+    width:100;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+
 
 /* Name */
-.h-name {
+.container .h-name {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 100px;
 }
-.h-name h1 {
+.container .h-name h1 {
     font-size: 48px;
     text-transform: uppercase;
     color: #232323;
 }
-.h-name h2 {
+.container .h-name h2 {
     font-size: 32px;
     text-transform: uppercase;
     color: #00E0FF;
 }
 
-/* Sobre */
-.h-sobre {
-    width: 100%;
-    min-height: 100px;
-    margin-bottom: 100px;
-}
-.h-sobre .paragraf {
+.container .h-sobre .paragraf {
     text-align: justify;
     font-size: 18px;
 }
 
 /* Experiência */
-.h-itens {
+.container .h-experiencia .h-itens {
     min-height: 100px;
 }
-.h-itens .item {
+.container .h-experiencia .h-itens .item {
     display: flex;
     flex-direction: row;
     width: 100%;
     min-height: 220px;
 }
-.work {
+.container .h-experiencia .h-itens .item .work {
     min-width: 25%;
 }
-.work h2 {
+.container .h-experiencia .h-itens .item .work h2 {
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-.work p {
+.container .h-experiencia .h-itens .item .work p {
     font-size: 22px;
     text-transform: uppercase;
 }
-.description {
+.container .h-experiencia .h-itens .item .description {
     width: 75%;
     min-height: 100px;
 }
-.description h2 {
+.container .h-experiencia .h-itens .item .description h2 {
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #00E0FF;
 }
-.description p {
+.container .h-experiencia .h-itens .item .description p {
     font-size: 18px;
     text-align: justify;
 }
 
 /* Educação */
-.h-educacao {
-    min-height: 100px;
-}
-.h-title-educacao {
-    height: 50px;
-    border-bottom: 2px solid #00E0FF;
-    margin-bottom: 50px;
-}
-.h-title-educacao h2 {
-    margin-top: 5%;
-    font-size: 26px;
-    text-transform: uppercase;
-}
-.h-educacao .item {
+.container .h-educacao .item {
     width: 100%;
     min-height: 220px;
 }
-.h-educacao .item .title {
+.container .h-educacao .item .title {
     margin-bottom: 10px;
 }
-.h-educacao .item .title h2 {
+.container .h-educacao .item .title h2 {
     font-size: 22px;
     text-transform: uppercase;
     color: #232323;
 }
-.h-educacao .item .title span {
+.container .h-educacao .item .title span {
     font-size: 22px;
     text-transform: uppercase;
     color: #00E0FF;
 }
-.h-educacao .item p {
+.container .h-educacao .item p {
     text-align: justify;
     font-size: 18px;
 }
 
 /* Habilidades */
-.h-habilidades {
-    min-height: 100px;
-    margin-bottom: 100px;
-}
-.h-title-habilidades {
+.container .h-title-habilidades {
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 50px;
 }
-.h-habilidades .item {
+.container .h-habilidades .item {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 50%;
     margin-bottom: 20px;
 }
-.h-habilidades .item .title {
+.container .h-habilidades .item .title {
     min-width: 150px;
 }
-.h-habilidades .item h2 {
+.container .h-habilidades .item h2 {
     font-size: 18px;
 }
-.h-habilidades .item .icon {
+.container .h-habilidades .item .icon {
     position: relative;
     width: 200px;
     height: 18px;
@@ -151,7 +134,7 @@
 }
 
 /* Percentuais */
-.h-habilidades .item .icon .percentual-10 {
+.container .h-habilidades .item .icon .percentual-10 {
     width: 110px;
     height: 100%;
     border-radius: 6px;
@@ -177,19 +160,19 @@
 }
 
 /* Contato */
-.h-contato {
+.container .h-contato {
     min-height: 200px;
     margin-bottom: 50px;
 }
-.h-contato .item {
+.container .h-contato .item {
     width: 100%;
     min-height: 80px;
 }
-.h-contato .item h2 {
+.container .h-contato .item h2 {
     font-size: 18px;
     text-transform: uppercase;
 }
-.h-contato .item p {
+.container .h-contato .item p {
     font-size: 18px;
     color: #00E0FF;
 }
