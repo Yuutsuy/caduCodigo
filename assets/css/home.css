@@ -105,11 +105,6 @@
 }
 
 /* Habilidades */
-.container .h-title-habilidades {
-    height: 50px;
-    border-bottom: 2px solid #00E0FF;
-    margin-bottom: 50px;
-}
 .container .h-habilidades .item {
     display: flex;
     flex-direction: row;
@@ -134,29 +129,25 @@
 }
 
 /* Percentuais */
-.container .h-habilidades .item .icon .percentual-10 {
+.container .h-habilidades .item .icon #percentual-10 {
+    height: 100%;
     width: 110px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    background-color: #00E0FF;
 }
-.container .h-habilidades .item .icon .percentual-50 {
+.container .h-habilidades .item .icon #percentual-50 {
+    height: 100%;
     width: 150px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    background-color: #00E0FF;
 }
-.container .h-habilidades .item .icon .percentual-80 {
+.container .h-habilidades .item .icon #percentual-80 {
+    height: 100%;
     width: 180px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    background-color: #00E0FF; 
 }
-.container .h-habilidades .item .icon .percentual-100 {
-    width: 200px;
+.container .h-habilidades .item .icon #percentual-100 {
     height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    width: 200px;
+    background-color: #00E0FF;
 }
 
 /* Contato */
@@ -176,6 +167,7 @@
     font-size: 18px;
     color: #00E0FF;
 }
+
 footer {
     width: 100%;
     height: 50px;
