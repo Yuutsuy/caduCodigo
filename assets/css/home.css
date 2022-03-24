@@ -181,7 +181,7 @@
     min-height: 200px;
     margin-bottom: 50px;
 }
-.container .h-contato .item {
+.h-contato .item {
     width: 100%;
     min-height: 80px;
 }
@@ -189,7 +189,7 @@
     font-size: 18px;
     text-transform: uppercase;
 }
-.container .h-contato .item p {
+.h-contato .item p {
     font-size: 18px;
     color: #00E0FF;
 }
