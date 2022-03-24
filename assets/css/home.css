@@ -93,51 +93,39 @@
 }
 
 /* Educação */
-.container .h-educacao {
-    width: 100%;
+.h-educacao {
     min-height: 100px;
 }
-.container .h-educacao .h-title-educacao {
-    width: 100%;
+.h-title-educacao {
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 50px;
 }
-.container .h-educacao .h-title-educacao h2 {
+.h-title-educacao h2 {
     margin-top: 5%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
     font-size: 26px;
     text-transform: uppercase;
-    color: #000000;
 }
-.container .h-educacao .item {
+.h-educacao .item {
     width: 100%;
     min-height: 220px;
 }
-.container .h-educacao .item .title {
+.h-educacao .item .title {
     margin-bottom: 10px;
 }
-.container .h-educacao .item .title h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+.h-educacao .item .title h2 {
     font-size: 22px;
     text-transform: uppercase;
     color: #232323;
 }
 .container .h-educacao .item .title span {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
     color: #00E0FF;
 }
-.container .h-educacao .item p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
+.h-educacao .item p {
     text-align: justify;
     font-size: 18px;
-    color: #000000;
 }
 
 /* Habilidades */
